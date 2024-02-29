@@ -30,7 +30,7 @@ const Sidebar = () => {
                     key={link.route}
                     className={`sidebar-nav_element group ${
                       isActive
-                        ? "bg-purple-gridient text-white"
+                        ? "bg-purple-gridient text-purple-500"
                         : "text-gray-700"
                     }`}
                   >
@@ -40,7 +40,7 @@ const Sidebar = () => {
                         alt="logo"
                         width={24}
                         height={24}
-                        className={`${isActive && "brightness-200"}`}
+                        className={`${isActive && "fill-purple-500 "}`}
                       />
                       {link.label}
                     </Link>
@@ -57,7 +57,7 @@ const Sidebar = () => {
                     key={link.route}
                     className={`sidebar-nav_element group ${
                       isActive
-                        ? "bg-purple-gridient text-white"
+                        ? "bg-purple-gridient text-purple-500"
                         : "text-gray-700"
                     }`}
                   >
@@ -67,7 +67,7 @@ const Sidebar = () => {
                         alt="logo"
                         width={24}
                         height={24}
-                        className={`${isActive && "brightness-200"}`}
+                        className={`${isActive && "fill-purple-500 "}`}
                       />
                       {link.label}
                     </Link>
